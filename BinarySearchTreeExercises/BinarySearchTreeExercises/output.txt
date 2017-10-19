@@ -1,0 +1,41 @@
+****Welcome to Binary Search Tree Exercises by Napon Krassner (Jett)****
+
+===============Testing Part (a.)===============
+**********Testing <int> tree**********
+Enter numbers ending with -999.
+60 20 10 40 30 60 70 -999
+----Tree Height:4
+----Total Nodes: 7
+----Total Leave Nodes: 3
+----preorderTraversal: 60 20 10 40 30 60 70
+----inorderTraversal: 10 20 30 40 60 60 70
+----postorderTraversal: 10 30 40 20 70 60 60
+---------Enter info you wish to delete from tree: 60
+----postorderTraversal after delete: 10 30 20 70 60 40
+
+---------Enter info you wish to search in tree: 60
+----Search result: 1
+
+**********Testing <string> tree**********
+---------Enter string ending with /n.
+Jane Bob Alan Ellen Jane Nancy /n
+----Tree Height:3
+----Total Nodes: 6
+----Total Leave Nodes: 3
+----preorderTraversal: Jane Bob Alan Ellen Jane Nancy
+----inorderTraversal: Alan Bob Ellen Jane Jane Nancy
+----postorderTraversal: Alan Ellen Bob Nancy Jane Jane
+---------Enter info you wish to delete from tree: Jane
+----postorderTraversal after delete: Alan Bob Nancy Jane Ellen
+
+---------Enter info you wish to search in tree: Gru
+----Search result: 0
+
+
+
+===============Testing Part (b.)===============
+Gigantic tree height: 69
+Gigantic tree node count: 1000000
+Gigantic tree leaf node count: 333418
+----The average of all values in the tree: 2.68422e+008
+Press any key to continue . . .
